@@ -1,0 +1,23 @@
+.bg-gradient {
+  background-image:
+    radial-gradient(
+      #c3d1c8,
+      #6f928c
+    );
+}
+
+.bg-filament-bright {
+  background-color: #c3d1c8;
+}
+
+.bg-filament {
+  background-color: #a1b8ae;
+}
+
+.bg-filament-dark {
+  background-color: #6f928c;
+}
+
+#wkwsci-logo {
+	margin: -6% 0% -3% -14%;
+}
