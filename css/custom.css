@@ -317,6 +317,21 @@ ul.solo-image {
 	object-fit: cover;
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: .1s ease;
+  background-color: #181c62;
+}
+
+.portfolio-item:hover .overlay {
+  opacity: 0.5;
+}
+
 @media screen and (min-width: 0px) {
 	.dropdown-menu {
 	  text-align: center;
